@@ -1,6 +1,7 @@
 import React from 'react';  
 import './Sidebar.css';
 import DonutLargeIcon from '@mui/icons-material/DonutLarge'
+import { Avatar, IconButton } from '@mui/material';
 
 function sidebar() {
   return (
@@ -8,7 +9,9 @@ function sidebar() {
       <div className='sidebar__header'>
 
         <div className='sidebar__headerRight'>
-          <DonutLargeIcon />
+          <IconButton>
+            <DonutLargeIcon />
+          </IconButton>
         </div>
       </div>
     </div>
