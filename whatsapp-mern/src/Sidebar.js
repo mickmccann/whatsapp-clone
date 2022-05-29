@@ -30,6 +30,11 @@ function sidebar() {
           <input placeholder='Search or start a new chat' type='text'/>
         </div>
       </div>
+      <div className='sidebar__chats'>
+          <SidebarChat />
+          <SidebarChat />
+          <SidebarChat />
+        </div>
     </div>
   )
 }
