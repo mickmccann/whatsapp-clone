@@ -28,7 +28,8 @@
 
 .chat__body {
     flex: 1;
-    background-color: #f3f3f3;
+    background: #ffffff;
+    /*background: url('https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg');*/
     background-repeat: repeat;
     background-position: center;
     padding: 30px;
@@ -40,8 +41,26 @@
     font-size: 16px;
     padding: 10px;
     width: fit-content;
+    border: 1px solid #00e5ff;
     border-radius: 10px;
     background-color: rgb(255, 251, 251);
     margin-bottom: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chat__receiver {
+    margin-left: auto;
+    border: 1px solid rgb(255, 225, 0);
+}
+
+.chat__timestamp {
+    margin-left: 10px;
+    font-size: x-small;
+}
+
+.chat__name {
+    position: absolute;
+    top: -15px;
+    font-weight: bold;
+    font-size: x-small;
 }
